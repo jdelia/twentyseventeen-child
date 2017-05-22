@@ -1,0 +1,55 @@
+/*
+Theme Name: Child of Twenty Seventeen
+Theme URI: https://wordpress.org/themes/twentyseventeen/
+Author: the WordPress team
+Author URI: https://wordpress.org/
+Description: Twenty Seventeen brings your site to life with header video and immersive featured images. With a focus on business sites, it features multiple sections on the front page as well as widgets, navigation and social menus, a logo, and more. Personalize its asymmetrical grid with a custom color scheme and showcase your multimedia content with post formats. Our default theme for 2017 works great in many languages, for any abilities, and on any device.
+Version: 1.2.1
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: child-twentyseventeen
+Template: twentyseventeen
+Tags: one-column, two-columns, right-sidebar, flexible-header, accessibility-ready, custom-colors, custom-header, custom-menu, custom-logo, editor-style, featured-images, footer-widgets, post-formats, rtl-language-support, sticky-post, theme-options, threaded-comments, translation-ready
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+.main-navigation .menu-social-links-menu-container .icon {
+  display: inline-block;
+  font-size: 36px;
+}
+
+.widget-area .menu-social-links-menu-container ul li {
+  display: inline-block;
+  font-size: 1rem;
+  border: none;
+  padding: 0;
+}
+
+.widget-area .menu-social-links-menu-container ul li a {
+  background-color: #767676;
+  border-radius: 40px;
+  color: #fff;
+  display: inline-block;
+  height: 40px;
+  margin: 0 1em 0.5em 0;
+  text-align: center;
+  width: 40px;
+}
+
+.widget-area .menu-social-links-menu-container ul li a:focus,
+.widget-area .menu-social-links-menu-container ul li a:hover {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  box-shadow: none;
+}
+
+.widget_search {
+  clear: both;
+}
+
+.widget-area .social-navigation {
+  width: 100%;
+}
